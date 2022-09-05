@@ -1,0 +1,31 @@
+{
+  "name": "mtm-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "mssql",
+    "express",
+    "nodejs",
+    "music",
+    "management",
+    "sequelize"
+  ],
+  "author": "Saviour",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "6.14.2",
+    "mssql": "^9.0.0",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3",
+    "tedious": "^15.0.1"
+  }
+}
